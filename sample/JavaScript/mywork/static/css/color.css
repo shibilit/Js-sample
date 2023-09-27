@@ -1,0 +1,25 @@
+
+.btn {
+    outline: none;
+    border: none;
+    margin-left: 40%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.8),
+                0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.btn:active {
+    outline: none;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    box-shadow: none;
+}
